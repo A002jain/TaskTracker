@@ -1,0 +1,88 @@
+
+body{
+	background-color:#333;
+}
+
+
+.nav_color ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8080ff;
+}
+
+.nav_color li {
+  float: left;
+}
+
+.nav_color li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav_color li a:hover {
+  background-color: #111;
+}
+
+
+.container1{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding-top: 50px;
+}
+.container2{
+	width: 1000px;
+	height: 500px;
+  margin: auto;
+	border-style: solid;
+	border-color : #8080ff;	
+}
+
+h2{
+	text-align: center;
+	color: orange;
+}
+
+
+.form_data{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 1.5rem;
+}
+
+.form_data input {
+	font-size: 1.3rem;
+}
+
+.form_data button {
+	font-size: 1.3rem;
+}
+
+.task{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.tasks{
+  width: 800px;
+  height: 200px;
+  margin: auto;
+  border-style: solid;
+  border-color : #8080ff; 
+}
+ul{
+  max-height: 180px;
+  overflow: auto;
+}
+li{
+  color: white;
+}
